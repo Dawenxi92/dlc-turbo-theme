@@ -33,10 +33,6 @@
           "type": "form",
           "settings": {}
         },
-        "customily_product_personalizer_main_7Dzr6w": {
-          "type": "shopify://apps/customily-product-personalizer/blocks/main/38e5281a-51b4-4383-badc-af97d3fb7e7b",
-          "settings": {}
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -50,7 +46,6 @@
         "title",
         "price",
         "form",
-        "customily_product_personalizer_main_7Dzr6w",
         "description",
         "share"
       ],
