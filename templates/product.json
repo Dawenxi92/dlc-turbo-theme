@@ -1,9 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "wrapper": "div.shopify-section-wrapper.section",
   "sections": {
     "sidebar": {
       "type": "product-sidebar",
       "settings": {
+        "toggle": false
       }
     },
     "main": {
@@ -11,76 +21,78 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
           "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
+            "display_savings": true
           }
         },
         "form": {
           "type": "form",
-          "settings": {
-          }
+          "settings": {}
+        },
+        "customily_product_personalizer_main_7Dzr6w": {
+          "type": "shopify://apps/customily-product-personalizer/blocks/main/38e5281a-51b4-4383-badc-af97d3fb7e7b",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
         },
         "share": {
           "type": "share",
-          "settings": {
-          }
-        },
-        "d6256b27-0506-4a10-84e8-1e8b7df5eec0": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.product.reviewAvgProfile\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-          }
-        },
-        "0db1c638-a44d-4cc6-8dba-8d5485760c0a": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.product.faveButton\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "title",
-        "d6256b27-0506-4a10-84e8-1e8b7df5eec0",
         "price",
-        "description",
         "form",
-        "0db1c638-a44d-4cc6-8dba-8d5485760c0a",
+        "customily_product_personalizer_main_7Dzr6w",
+        "description",
         "share"
       ],
       "settings": {
+        "product_breadcrumb": false,
+        "media_position": "is-flex-row",
+        "set_product_height": false,
+        "product_height": 500,
+        "video_looping": false,
+        "product_thumbs": true,
+        "gallery_arrows": true,
+        "enable_product_lightbox": true,
+        "activate_zoom": true,
+        "slideshow_speed": 0,
+        "slideshow_animation": "slide",
+        "thumbnail_position": "bottom",
+        "enable_thumbnail_slider": true
       }
+    },
+    "5690622ea028be198": {
+      "type": "apps",
+      "settings": {}
     },
     "recently-viewed": {
       "type": "recently-viewed",
       "settings": {
+        "rv_title": "Recently viewed products",
+        "rv_products_style": "grid",
+        "rv_max_display": 6,
+        "rv_per": 4,
+        "css_class": "",
+        "custom_css": ""
       }
     },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true
-      }
-    },
-    "5690622ea028be198": {
-      "type": "apps",
-      "blocks": {
-        "1610a288-29e5-4a74-8054-e0c4a1477a80": {
-          "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.product.reviewWidget\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1610a288-29e5-4a74-8054-e0c4a1477a80"
-      ],
-      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_style": "grid",
+        "product_recommendations_heading": "You may also like",
+        "products_per_row": 3,
+        "recommended_products_limit": 4
       }
     }
   },
